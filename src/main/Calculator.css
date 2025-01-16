@@ -1,11 +1,15 @@
 .calculator {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    padding: 10px;
-    background-color: #f3f3f3;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 360px;
+    border-radius: 20px;
+    height: 320px;
     width: 235px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #e2e2e2, #c1c1c1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #888;
+    padding: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
 }
+
